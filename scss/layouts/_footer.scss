@@ -1,4 +1,4 @@
 footer {
     height: 10vh;
-    border-top: solid $color-black 5px;
+    border-top: solid map-get($colors , color-black) 5px;
 }

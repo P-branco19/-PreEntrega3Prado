@@ -1,11 +1,11 @@
 
 .btn-primary {
-    color: $color-white !important;
-    background-color: $color-black !important;
-    border: solid 2px $color-white;
+    color: map-get($colors , color-white) !important;
+    background-color: map-get($colors , color-black) !important;
+    border: solid 2px map-get($colors , color-white);
     border-radius: 10px;
         &:hover{
             border: solid 2px $bg-primary;
-            color: $color-pink;
+            color: map-get($colors , color-pink);
         }
 }

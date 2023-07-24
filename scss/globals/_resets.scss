@@ -23,7 +23,7 @@ main {
 
 #contenedor_imagenes{
     width: 100%;
-    text-align: center;
+    text-align: $text-center;
     margin-top: 0px;
 }
 
@@ -36,10 +36,10 @@ main {
 }
 
 .list-group-item {
-    border: $color-pink solid 1px;
+    border: map-get($colors , color-pink)solid 1px;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    color: $color-pink !important;
-    background-color: $color-black;
+    color: map-get($colors , color-pink) !important;
+    background-color: map-get($colors , color-black);
 }
