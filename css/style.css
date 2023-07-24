@@ -131,7 +131,7 @@ header div img {
   white-space: nowrap;
   border: 3px solid black;
   border-radius: 10px;
-  background-color: black;
+  background-color: black lack;
 }
 .navbar-brand:hover {
   color: black;
@@ -228,7 +228,7 @@ section {
   text-align: center;
   background-color: #ff65d8 !important;
   width: 100%;
-  border-color: var(--bs-table-border-color);
+  border-color: black;
   margin: 0;
   padding: 0;
 }

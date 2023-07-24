@@ -19,7 +19,7 @@
 .form-control {
     display: block;
     padding: 0;
-    font-size: $font-size-sm;
+    font-size: map-get($font-size , font-sm);
     font-weight: 400;
     line-height: 1;
     background-color: map-get($colors , color-black);
@@ -30,7 +30,7 @@
         &:focus{
             display: block;
             padding: 0;
-            font-size: $font-size-sm;
+            font-size: map-get($font-size , font-sm);
             font-weight: 400;
             line-height: 1;
             background-color: map-get($colors , color-black);
@@ -59,7 +59,7 @@
         display: inline-block;
         width: 30%;
         padding: 0;
-        font-size: $font-size-sm;
+        font-size: map-get($font-size , font-sm);
         font-weight: 400;
         line-height: 1;
         color: map-get($colors , color-white) !important;
