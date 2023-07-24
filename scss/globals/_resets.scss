@@ -57,3 +57,7 @@ article {
     color: map-get($colors , color-pink) !important;
     background-color: map-get($colors , color-black);
 }
+
+h1{
+    transform: skew(170deg);
+}

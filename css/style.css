@@ -54,6 +54,10 @@ article {
   background-color: black;
 }
 
+h1 {
+  transform: skew(170deg);
+}
+
 footer {
   height: 10vh;
   border-top: solid black 5px;
