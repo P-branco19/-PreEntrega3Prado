@@ -1,10 +1,11 @@
 
 .btn-primary {
     color: $color-white !important;
-    background-color: black !important;
+    background-color: $color-black !important;
     border: solid 2px $color-white;
     border-radius: 10px;
-        &hover{
+        &:hover{
             border: solid 2px $bg-primary;
+            color: $color-pink;
         }
 }

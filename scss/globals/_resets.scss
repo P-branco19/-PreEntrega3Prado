@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-family: $font-primary !important;
     box-sizing: border-box;
 }
 
@@ -27,17 +27,19 @@ main {
     margin-top: 0px;
 }
 
-#contenedor_imagenes img{
-    width: 170px;
-    height: 150px;
-    display: inline-block;
+#contenedor_imagenes {
+    img {
+        width: 170px;
+        height: 150px;
+        display: inline-block;
+    }
 }
 
 .list-group-item {
-    border: rgb(255, 46, 185) solid 1px;
+    border: $color-pink solid 1px;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    color: rgb(255, 46, 185) !important;
-    background-color: rgb(0, 0, 0);
+    color: $color-pink !important;
+    background-color: $color-black;
 }

@@ -1,6 +1,6 @@
 .table {
     text-align: center;
-    background-color: #ff65d8 !important;
+    background-color: $color-lightpink !important;
     width: 100%;
     border-color: var(--bs-table-border-color);
     margin: 0;
@@ -9,7 +9,7 @@
 
 .table-primary {
     text-align: center;
-    background-color: #ff65d8;
-    color: black;
-    border-color: black;
+    background-color: $color-lightpink;
+    color: $color-black;
+    border-color: $color-black;
 }
