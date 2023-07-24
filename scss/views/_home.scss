@@ -6,3 +6,7 @@ aside {
 section {
     height: 75vh;
 }
+
+p {
+    color: map-get($colors , color-black );
+}

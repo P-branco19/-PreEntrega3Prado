@@ -14,6 +14,12 @@ main {
   height: 75vh;
 }
 
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #imagen_inicio img {
   width: 250px;
   height: 250px;
@@ -21,16 +27,22 @@ main {
 
 #contenedor_imagenes {
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  text-align: center;
-  margin-top: 0px;
+  width: 170px;
+  height: 160px;
 }
 
 #contenedor_imagenes img {
-  width: 170px;
-  height: 150px;
-  display: inline-block;
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+#contenedor_imagenes img:hover {
+  cursor: crosshair;
+  width: 100px;
+  opacity: 1;
+  filter: contrast(120%);
 }
 
 .list-group-item {
@@ -163,6 +175,10 @@ aside {
 
 section {
   height: 75vh;
+}
+
+p {
+  color: black;
 }
 
 .bg-primary-subtle {
