@@ -4,6 +4,7 @@
     background-color: map-get($colors , color-lightpink);
     color: map-get($colors , color-black);
     @include border (null, null, map-get($colors, color-black), null);
+    margin-bottom: 10px;
 }
 
 .table {

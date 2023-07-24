@@ -28,7 +28,7 @@ article {
 #contenedor_imagenes {
   display: flex;
   width: 170px;
-  height: 160px;
+  height: 140px;
 }
 
 #contenedor_imagenes img {
@@ -250,6 +250,7 @@ p {
   background-color: #ff65d8;
   color: black;
   border-color: black;
+  margin-bottom: 10px;
 }
 
 .table {
