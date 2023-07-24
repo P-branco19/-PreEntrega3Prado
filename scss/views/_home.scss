@@ -1,4 +1,5 @@
 aside {
+    @include flex-row-center;
     height: 75vh;
 }
 

@@ -1,0 +1,17 @@
+@mixin flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@mixin flex-space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin border ($width, $style, $color, $radius){
+    border-width: $width;
+    border-style: $style;
+    border-color: $color;
+    border-radius: $radius;
+}

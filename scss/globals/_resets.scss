@@ -14,7 +14,7 @@ main {
     height: 75vh;
 }
 
-#imagen_inicio{
+#imagen_inicio{ 
     img{
         width: 250px;
         height: 250px;
@@ -22,6 +22,7 @@ main {
 }
 
 #contenedor_imagenes{
+    @include flex-space-evenly;
     width: 100%;
     text-align: $text-center;
     margin-top: 0px;
