@@ -1,15 +1,14 @@
-.table {
-    text-align: $text-center;
-    background-color: map-get($colors , color-lightpink) !important;
-    width: 100%;
-    border-color: map-get($colors , color-black);
-    margin: 0;
-    padding: 0;
-}
 
 .table-primary {
     text-align: $text-center;
     background-color: map-get($colors , color-lightpink);
     color: map-get($colors , color-black);
     border-color: map-get($colors , color-black);
+}
+
+.table {
+    @extend .table-primary;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }

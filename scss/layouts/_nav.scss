@@ -1,19 +1,4 @@
 .navbar-brand {
-    font-size: map-get($font-size , font-nav);
-    color: map-get($colors , color-pink);
-    text-decoration: none;
-    white-space: nowrap;
-    border: 3px solid map-get($colors , color-black);
-    border-radius: 10px;
-    background-color: map-get($colors , color-black)lack;
-        &:hover{
-            color: map-get($colors , color-black);
-            background-color: map-get($colors , color-pink);
-    }
-}
-
-
-.navbar-expand-lg .navbar-nav .nav-link {
     font-size: map-get($font-size , font-nav);;
     color: map-get($colors , color-pink);
     text-decoration: none;
@@ -26,6 +11,11 @@
             color: map-get($colors , color-black);
             background-color: map-get($colors , color-pink);
         }
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    @extend .navbar-brand
 }
 
 .navbar-toggler {

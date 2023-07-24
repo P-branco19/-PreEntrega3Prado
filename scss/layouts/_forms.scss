@@ -10,10 +10,7 @@
 }
 
 #edad {
-    background-color: map-get($colors , color-black);
-    color: map-get($colors , color-white);
-    border: 2px solid map-get($colors , color-white);
-    border-radius: 10px;
+    @extend #fnac
 }
 
 .form-control {
