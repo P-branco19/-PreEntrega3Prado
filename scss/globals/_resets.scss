@@ -50,14 +50,11 @@ article {
 }
 
 .list-group-item {
+    position:static;
     border: map-get($colors , color-pink)solid 1px;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
     color: map-get($colors , color-pink) !important;
     background-color: map-get($colors , color-black);
-}
-
-h1{
-    transform: skew(170deg);
 }
