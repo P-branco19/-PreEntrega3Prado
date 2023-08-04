@@ -281,6 +281,12 @@ p {
   section p {
     font-size: 0.9rem;
   }
+  .historia {
+    height: 170vh;
+  }
+  .nominaciones {
+    height: 130vh;
+  }
 }
 @media (min-width: 1024px) {
   #imagen_inicio img {

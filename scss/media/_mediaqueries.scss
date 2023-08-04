@@ -31,7 +31,40 @@
             font-size: 0.9rem;
         }
 
+    .historia{
+        height: 170vh;
+    }
+
+    .nominaciones{
+        height: 130vh;
+    }
 }
+
+// @media (min-width:425px){
+//     #contenedor_imagenes{
+//         display: flex;
+//         width: 300px;
+//         height: 270px;
+        
+//     }
+    
+//     #contenedor_imagenes {
+//         img {
+            
+//             width: 0px;
+//             flex-grow: 1;
+//             object-fit: cover;
+//             opacity: .8;
+//             transition: .5s ease;
+//             &:hover{
+//                 cursor: crosshair;
+//                 width: 200px;
+//                 opacity: 1;
+//                 filter: contrast(120%);
+//             }
+//         }
+//     }
+// }
 
 
 @media (min-width: 1024px) {
