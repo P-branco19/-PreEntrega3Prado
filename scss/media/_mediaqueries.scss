@@ -1,0 +1,56 @@
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    main{
+        height: 80vh;
+    }
+    footer{
+        height: 25vh;
+        font-size: 0.7rem;
+    }
+    #imagen_inicio 
+        img{
+        width: 120px;
+        height: 120px;
+    }
+    aside{
+        height: auto;
+    }
+    header
+        div
+            img{
+                display: none;
+            }
+    header
+        nav{
+            position: relative;
+            top:-80px
+        }
+    section
+        p{
+            font-size: 0.9rem;
+        }
+
+}
+
+
+@media (min-width: 1024px) {
+    #imagen_inicio 
+    img{
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+}
+
+    main
+        div
+            h1{
+                font-size: 3rem;
+}
+
+    section
+        p{
+            font-size: 2rem;
+        }
+    
+}
