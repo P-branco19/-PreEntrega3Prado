@@ -13,6 +13,14 @@ main {
   height: 75vh;
 }
 
+.historia {
+  height: 90vh;
+}
+
+.nominaciones {
+  height: 90vh;
+}
+
 article {
   display: flex;
   flex-direction: row;
@@ -26,8 +34,8 @@ article {
 
 #contenedor_imagenes {
   display: flex;
-  width: 170px;
-  height: 140px;
+  width: 270px;
+  height: 240px;
 }
 
 #contenedor_imagenes img {
@@ -256,6 +264,14 @@ p {
   padding: 0;
 }
 
+@media (max-width: 375px) {
+  legend {
+    font-size: 1rem;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+}
 @media (max-width: 576px) {
   main {
     height: 80vh;
@@ -288,6 +304,11 @@ p {
     height: 130vh;
   }
 }
+@media (max-width: 425px) {
+  table {
+    font-size: 0.6rem;
+  }
+}
 @media (min-width: 1024px) {
   #imagen_inicio img {
     width: 350px;
@@ -298,7 +319,7 @@ p {
     font-size: 3rem;
   }
   section p {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 

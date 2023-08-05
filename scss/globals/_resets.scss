@@ -14,6 +14,14 @@ main {
     height: 75vh;
 }
 
+.historia{
+    height: 90vh
+}
+
+.nominaciones{
+    height: 90vh
+}
+
 article {
     @include flex-row-center;
 }
@@ -27,8 +35,8 @@ article {
 
 #contenedor_imagenes{
     display: flex;
-    width: 170px;
-    height: 140px;
+    width: 270px;
+    height: 240px;
     
 }
 
